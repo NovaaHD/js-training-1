@@ -1,5 +1,4 @@
-script: ./tester basics
-./tester math
+script: ./tester math
 language: node_js
 node_js:
   - "node"
