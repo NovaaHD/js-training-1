@@ -10,6 +10,29 @@
 
 // Your code :
 
+const multiply = (number1, number2) => {
+    let numbSum = 0;
+    if (number1 >= 0) {
+        for (let i = 0; i <= number1 - 1; i++) {
+            numbSum += number2;
+            
+        }
+        return numbSum;
+    } else if (number1 < 0) {
+        for (let i = 0; i >= number1 + 1; i--) {
+            numbSum += number2;
+            
+        }
+        return -numbSum;
+    } else {
+        for (let i = 0; i <= number1 - 1; i++) {
+            numbSum += number2;
+            
+        }
+        return -numbSum;
+    }
+}
+
 //* Begin of tests
 const assert = require('assert')
 
